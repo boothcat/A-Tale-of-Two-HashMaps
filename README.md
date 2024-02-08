@@ -18,7 +18,7 @@ A HashMap object takes two parameters: the capacity of the hash table, and the h
 Class HashMap uses a dynamic array to store a hash table and uses a singly linked list to handle collisions.  Chains of key/value pairs are stored in linked list nodes. File hash_map_sc.py contains an additional function find_mode which takes a dynamic array and returns a tuple containing a dynamic array of mode values and an integer that represents the mode frequency. 
 ### Separate Chaining Example 
 ![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/d43740d9-0251-45e7-a539-b8315db69246)
-![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/87a7a83e-b13f-4671-9800-174d1d2d4ba8)
+![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/d192f505-5d4a-4512-acb6-16c994821634)
 
 FindMode Function Example:
 ![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/3949b304-958f-4c7f-84a2-b930548f3326)
@@ -26,6 +26,7 @@ FindMode Function Example:
 ## Open Addressing Implementation
 Class HashMap uses a dynamic array to store a hash table and uses open addressing with quadratic probing to handle collision. In this implementation, the hash table's capacity is doubled when the current load factor of the table is greater than or equal to 0.5. 
 ![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/efa03ad7-3f1a-4fe8-926a-4c673fb2e21b)
-![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/de47b7aa-8760-4121-bc08-9fa87fbff1d0)
+![image](https://github.com/boothcat/A-Tale-of-Two-HashMaps/assets/97126252/1d75e45a-f016-492d-a10a-ee73db469e01)
+
 
 
